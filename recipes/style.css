@@ -1,0 +1,67 @@
+/* style.css recipes page*/
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    max-width: 650;
+    margin: auto;
+    background: rgb(253, 253, 245);
+    padding: 10px;
+}
+h1 {
+    font-family: Tahoma, "Trebuchet ms", arial;
+    text-align: center;
+    font-size: 50px;
+    color: goldenrod;
+    letter-spacing:5px;
+}
+
+.recipe.title {
+    color:cadetblue;
+    text-align:center;
+    letter-spacing: 3px;
+    line-height: 1,5;
+}
+
+.description {
+    color:rgb(35, 90, 75);
+    font-weight: bold;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height: 1,5; 
+}
+.description.text {
+    color:rgb(21, 21, 21);
+    font-weight: 100;
+    text-align:left;
+    letter-spacing: 1.5px;
+    line-height: 1.5; 
+    text-align: justify;
+}
+
+.ingredients {
+    color:rgb(35, 90, 75);
+    font-weight: bold;
+}
+.ingredients.list {
+    color: rgb(21, 21, 21);
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    line-height: 1.5; 
+}
+
+.howtocook {
+    color:rgb(35, 90, 75);
+    font-weight: bold;
+}
+.howtocook.list {
+    color:rgb(21, 21, 21);
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    line-height: 1.5; 
+}
+
+.protip {
+    color:brown;
+    letter-spacing: 1.5px;
+}
